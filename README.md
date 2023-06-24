@@ -1,5 +1,35 @@
 # Weforecast
 Weather Forecasting Tool: Create a command line tool that accepts a city's name and returns the current weather forecast. Leverage OpenWeatherMap API to fetch weather data and parse it using Python. Your solution should demonstrate how GitHub Copilot can help you with API usage, data parsing, and error handling.
+# Architectural Flow Description:
+Import Required Libraries:
+
+Start by importing the necessary Python libraries, such as requests and json, to make API requests and parse JSON data, respectively.
+
+User Input:
+
+Prompt the user to enter the name of the city for which they want to retrieve the weather forecast.
+
+API Request:
+
+Utilize GitHub Copilot's suggestions to generate code for making an API request to the OpenWeatherMap API.
+Use the city name and the OpenWeatherMap API key to construct the API request URL.
+Implement error handling logic provided by Copilot to handle potential network errors or exceptions during the API request.
+
+API Response:
+
+Leverage Copilot's suggestions to handle the API response, ensuring proper error handling and data extraction.
+Use the json library to parse the JSON response into a Python dictionary.
+Extract the relevant weather information, such as temperature, humidity, wind speed, etc., from the parsed data.
+
+Display Weather Forecast:
+
+Print the retrieved weather information to the console, including the city name and the extracted weather details.
+Utilize Copilot's suggestions to format and display the weather information in a user-friendly manner.
+
+Error Handling:
+
+Implement error handling mechanisms provided by Copilot to handle potential errors during the API request, response parsing, or data extraction.
+Display informative error messages to the user in case of any errors encountered.
 # Github Copilot can be useful in:
 Making API Requests:
 Copilot can suggest the use of libraries like requests or http.client for making HTTP requests to the OpenWeatherMap API.
