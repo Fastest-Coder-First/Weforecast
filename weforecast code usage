@@ -1,0 +1,15 @@
+Step 1: Set up an OpenWeatherMap API Key
+   Go to the OpenWeatherMap website at https://openweathermap.org/ and sign up for a free account.
+   Once you have an account, navigate to the API Keys section and generate a new API key. Copy the API key as we'll need it later.
+Step 2: Install Required Libraries
+   Make sure you have Python installed on your system. You can check this by running python --version in your terminal or command prompt.
+   Install the requests library by running pip install requests in your terminal or command prompt. This library will help us make HTTP requests to the OpenWeatherMap API.
+Step 3: Set Up the Code
+   Open your favorite text editor or integrated development environment (IDE) and create a new Python file (___.py)
+Step 4: Insert the API Key (your API key)
+   In the main function, replace  with the API key you obtained from OpenWeatherMap.
+Step 5: Run the Code
+   Open a terminal or command prompt and navigate to the directory where the weather.py file is located.
+   Run the command python ____.py to execute the script.
+   Enter the name of the city for which you want to fetch the weather forecast when prompted.
+   The program will then make a request to the OpenWeatherMap API, retrieve the weather data, and display the current temperature and description for the specified city.
