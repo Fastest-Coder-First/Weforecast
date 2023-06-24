@@ -29,4 +29,3 @@ def main():
 if __name__ == "__main__":
     main()           
 #By: VDMANISH
-#Description on how to use the code is given beside main branch as message option.
