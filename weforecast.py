@@ -27,4 +27,6 @@ def main():
     get_weather(api_key, city_name)
 #4
 if __name__ == "__main__":
-    main()           #vdmanish
+    main()           
+#By: VDMANISH
+#Description on how to use the code is given beside main branch as message option.
